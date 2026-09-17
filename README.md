@@ -22,8 +22,8 @@ df["Average"] = df[["Math", "Electronics", "GEAS", "Communication"]].mean(axis=1
 ## Problem A. VISAYAS COMMUNICATION DATAFRAME
 This program creates a DataFrame named VisComm containing students whose:
 
-- ## Hometown is Visayas
-- ## Track is Communication
+- Hometown is Visayas
+- Track is Communication
 
 The program retains only the Name, Gender, Math, Electronics, and Average. The resulting DataFrame and number of rows are then displayed. The VisComm DataFrame contains 5 students.
 ```python
@@ -41,8 +41,8 @@ print("Number of rows:", len(VisComm))
 ## Problem B. VISAYAS FEMALE DATAFRAME
 The program creates a DataFrame named VisFemale containing students whose:
 
-- ## Hometown is Visayas
-- ## Gender is Female
+- Hometown is Visayas
+- Gender is Female
 
 The following columns are retained, but the GEAS is added, and the gender is now at the DataFrame. The program then displays only students whose average is at least 60 without changing the original VisFemale DataFrame.
 
@@ -63,9 +63,9 @@ display(VisFemale[VisFemale["Average"] >= 60])
 ## Problem C. Category-Average Visualization
 The program calculates the mean Average for each category of:
 
-- ## Track
-- ## Gender
-- ## Hometown
+- Track
+- Gender
+- Hometown
 The program also creates one figure containing three bar charts comparing the mean Average according to Track, Gender, and Hometown.
 ## a-b.
 ```python
@@ -120,8 +120,8 @@ plt.show
 
 Based on the observed sample means:
 
-- ## Track: Communication has the highest sample mean Average at 67.97.
-- ## Gender: Male students have the highest sample mean Average at 67.18.
-- ## Hometown: Luzon has the highest sample mean Average at 68.08.
+- Track: Communication has the highest sample mean Average at 67.97.
+- Gender: Male students have the highest sample mean Average at 67.18.
+- Hometown: Luzon has the highest sample mean Average at 68.08.
 
 These statements describe the observed dataset only. Differences in group means do not, by themselves, establish that a category causes higher board-exam scores.
