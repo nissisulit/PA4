@@ -4,7 +4,7 @@
 ## Section: 2ECE-B
 ## Date Submitted: September , 2026
 
-This program assignment is mainly for creating dataframe from the excel file named ECE Board Exam 2. The board2.xlsx will be used for this assignment.
+This Program Assignment demonstrate the use of Pandas for data wrangling and Matplotlib for data visualization. The ECE Board Exam 2 dataset was used to filter specific group of students, calculate average scores, summarize data by categories, and visualize the results using bar charts. The board2.xlsx was used for this Program Assignment.
 
 ## Problem A. VISAYAS COMMUNICATION DATAFRAME
 ```python
